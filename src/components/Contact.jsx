@@ -35,6 +35,9 @@ const Home = () => {
   return (
     <div className="min-h-screen  gradient-bg-welcome ">
       <div className="contact  justify-center items-center">
+        <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient text-center contact-h2 ">
+          Contact Us
+        </h1>
         <div className="p-5 sm:w-96 w-full flex flex-col justify-center items-center blue-glassmorphism">
           <Link to="facebook.com" className="text-white contact-link" >Facebook</Link>
         </div>
@@ -45,7 +48,7 @@ const Home = () => {
           <Link to="facebook.com" className="text-white" >twitter</Link>
         </div>
         <div className="p-5 sm:w-96 w-full flex flex-col justify-center items-center blue-glassmorphism">
-        <Link to="facebook.com" className="text-white" >Instagram</Link>
+          <Link to="facebook.com" className="text-white" >Instagram</Link>
         </div>
         <div className="p-5 sm:w-96 w-full flex flex-col justify-center items-center blue-glassmorphism">
           <Input placeholder="Name" name="addressTo" type="text" handleChange={handleChange} />

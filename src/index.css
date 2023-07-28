@@ -112,7 +112,7 @@ body {
 @tailwind utilities;
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .contact{
     width: 80%;
   }
