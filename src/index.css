@@ -16,6 +16,8 @@ body {
 .logo{
   width: 60px;
   height: 5.7vh;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .nav{
