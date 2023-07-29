@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       <nav className="w-full flex md:justify-center justify-between items-center p-4 gradient-bg-welcome ">
         <div className="md:flex-[0.5] flex-initial justify-center items-center">
-          <img src={logo} alt="logo" className="w-32 cursor-pointer" />
+          <img src={logo} alt="logo" className=" cursor-pointer logo" />
         </div>
         <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
           <li className="mx-4 cursor-pointer">

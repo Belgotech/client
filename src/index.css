@@ -13,6 +13,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo{
+  width: 60px;
+  height: 5.7vh;
+}
+
 .nav{
   margin-right: 20px;
 }
